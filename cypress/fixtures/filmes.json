@@ -1,0 +1,27 @@
+[
+    {
+        "titulo": "Matrix",
+        "ano": "1999",
+        "descricao": "Um hacker chamado Neo descobre a verdade sobre sua realidade e sua luta contra os controladores da Matrix."
+    },
+    {
+        "titulo": "Inception",
+        "ano": "2010",
+        "descricao": "Um ladrão especializado em extrair segredos do subconsciente é oferecido uma chance de apagar seu passado."
+    },
+    {
+        "titulo": "Interstellar",
+        "ano": "2014",
+        "descricao": "Um grupo de exploradores viaja através de um buraco de minhoca em busca de um novo lar para a humanidade."
+    },
+    {
+        "titulo": "The Dark Knight",
+        "ano": "2008",
+        "descricao": "Batman enfrenta o Coringa, um criminoso psicótico que quer espalhar o caos em Gotham."
+    },
+    {
+        "titulo": "The Shawshank Redemption",
+        "ano": "1994",
+        "descricao": "Dois prisioneiros formam uma amizade ao longo dos anos, encontrando conforto e redenção através da esperança."
+    }
+]
