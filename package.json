@@ -1,5 +1,23 @@
 {
   "dependencies": {
     "cypress": "^14.3.2"
-  }
+  },
+  "scripts": {
+    "test": "npx cypress run --browser chrome"
+  },
+  "name": "gms-test",
+  "version": "1.0.0",
+  "main": "cypress.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bissnatriz/gms-test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bissnatriz/gms-test/issues"
+  },
+  "homepage": "https://github.com/Bissnatriz/gms-test#readme",
+  "description": ""
 }

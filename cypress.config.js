@@ -6,6 +6,6 @@ module.exports = defineConfig({
       // implement node event listeners here
     },
 
-    baseUrl: 'http://192.168.2.104:8080'
+    baseUrl: 'http://golden-movie-studio.vercel.app/'
   },
 });
