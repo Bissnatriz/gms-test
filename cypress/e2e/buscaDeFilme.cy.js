@@ -12,7 +12,7 @@ describe('Busca de Filmes', () => {
         cy.get('#results-section').should('contain', 'Star Wars')
     });
 
-    it.only('Deve realizar a busca de filmes de uma lista', () => {
+    it('Deve realizar a busca de filmes de uma lista', () => {
         cy.fixture('filmes').then((filmes) => {
             filmes.forEach((filme) => {
                 cy.get('#search-input').clear().type(filme.titulo)

@@ -17,7 +17,7 @@ describe('Cadastro de membros', () => {
     cy.get('#signup-response').should('contain', 'Nome deve conter apenas caracteres alfabéticos, acentuados e espaços')
   });
 
-  it.only('Deve validar mensagem de erro campo nome obrigatorio', () => {
+  it('Deve validar mensagem de erro campo nome obrigatorio', () => {
     cy.get('#signup-lastname').type('Morais')
     cy.get('#signup-email').type('beatriz@teste.com.br')
     cy.get('#signup-phone').type('11999999999')
